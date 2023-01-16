@@ -4,6 +4,8 @@ server:
 
 #connection mongodb
 spring:
+    appllication:
+        name: bank-service-card
     data:
         mongodb:
             uri: mongodb://localhost:27017/bank
