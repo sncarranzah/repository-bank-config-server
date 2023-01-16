@@ -1,6 +1,6 @@
 #server port
 server:
-    port: 8010
+    port: 6010
 
 #connection mongodb
 spring:
