@@ -1,0 +1,11 @@
+#server port
+server:
+    port: 8010
+
+#connection mongodb
+spring:
+    data:
+        mongodb:
+            uri: mongodb://localhost:27017/bank
+    config:
+        import: optional:configserver:http://localhost:8888

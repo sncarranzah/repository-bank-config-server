@@ -1,0 +1,7 @@
+server:
+    port:8030
+#connection mongodb
+spring:
+    data:
+        mongodb:
+            urimongodb://localhost:27017/bank
