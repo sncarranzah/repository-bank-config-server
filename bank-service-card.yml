@@ -10,4 +10,4 @@ spring:
         mongodb:
             uri: mongodb://localhost:27017/bank
     config:
-        import: optional:configserver:http://localhost:8889
+        import: optional:configserver:http://localhost:8888
